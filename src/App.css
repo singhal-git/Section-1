@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Labil;
+  src: url('./LabilGrotesk-Medium/LabilGrotesk-Medium.ttf');
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Labil,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  background: #000;
+  color: #adadad;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page-wrapper {
+  pointer-events: none;
+  position: relative;
+  z-index: 2;
+}
+
+.page-content {
+  background: #000;
+  pointer-events: auto;
+}
+
+section{
+  display: block;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: calc(1234px + 2rem);
+  padding: 0 4rem;
+  margin: 0 auto;
+}
+
+.textreveal_section__Dw9vK {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+p {
+  letter-spacing: -.02em;
+}
+
+.textreveal_wrapper__fuEcC {
+  position: relative;
+  height: 205vh;
+}
+
+.textreveal_sticky__NBmkY {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  height: 50%;
+}
+
+.textreveal_inner__Kddvp {
+  padding-left: 4rem;
+  max-width: 60rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.title-lead {
+  font-size: 3.875rem;
+}
+
+.text-\[\#202020\] {
+  --tw-text-opacity: 1;
+  color: rgb(32 32 32/var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255/var(--tw-text-opacity));
+}
+
+.leading-none {
+  line-height: 1;
+}
+
+.font-semibold {
+  font-weight: 500;
+}
+
+.absolute {
+  position: absolute; 
+  margin-top: 0px;
+}
+
+.textreveal_text__9qSpD {
+  position: absolute;
+  top: 33%;
+  left: 10% !important;
+  right:10% !important; 
+  height: 16.666%;
+  width: 90%;
+}
+
+span {
+  opacity: 0;
+  transition: opacity .2s linear;
+}
